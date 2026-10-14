@@ -1,0 +1,6 @@
+project_id = "locallink-logistics"
+
+# The function handles public booking/tracking requests and validates admin sessions itself.
+# Never put the service-role key in the frontend.
+[functions.locallink-api]
+verify_jwt = false
